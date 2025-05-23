@@ -6,9 +6,12 @@ import net.suryavardhan.addressbookapp.service.ContactService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.util.List;
 
 @RestController
+@Slf4j
 @RequestMapping("/contacts")
 @CrossOrigin(origins = "*")
 public class ContactController {
@@ -40,5 +43,13 @@ public class ContactController {
     public String delete(@PathVariable Long id) {
         service.deleteContact(id);
         return "Deleted contact with id: " + id;
+    }
+    
+    @GetMapping("/test")
+    public String testLogging() {
+        log.debug("This is a DEBUG log for testing");
+        log.warn("This is a WARN log");
+        log.error("This is an ERROR log");
+        return "Logging tested!";
     }
 }
