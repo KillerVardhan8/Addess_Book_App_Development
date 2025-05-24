@@ -1,0 +1,80 @@
+2025-05-24T10:20:38.327+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] n.s.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 21.0.6 with PID 24140 (C:\Users\surya\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\Address-Book_App\target\classes started by surya in C:\Users\surya\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\Address-Book_App)
+2025-05-24T10:20:38.327+05:30 DEBUG 24140 --- [Address-Book_App] [restartedMain] n.s.a.AddressBookAppApplication          : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-24T10:20:38.327+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] n.s.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-05-24T10:20:38.673+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-24T10:20:38.701+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2025-05-24T10:20:38.849+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-24T10:20:38.851+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T10:20:38.851+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-24T10:20:38.879+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T10:20:38.879+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 546 ms
+2025-05-24T10:20:38.968+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-24T10:20:38.977+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-24T10:20:39.005+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-24T10:20:39.007+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-05-24T10:20:39.042+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76639927
+2025-05-24T10:20:39.043+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-05-24T10:20:39.045+05:30  WARN 24140 --- [Address-Book_App] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-24T10:20:39.045+05:30  WARN 24140 --- [Address-Book_App] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-05-24T10:20:39.045+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-24T10:20:39.133+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-24T10:20:39.148+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-24T10:20:39.274+05:30  WARN 24140 --- [Address-Book_App] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-24T10:20:39.400+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/suryadb'
+2025-05-24T10:20:39.428+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-24T10:20:39.443+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-24T10:20:39.448+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] n.s.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.167 seconds (process running for 34.862)
+2025-05-24T10:20:39.450+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-05-24T10:22:16.219+05:30  INFO 24140 --- [Address-Book_App] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-24T10:22:16.223+05:30  INFO 24140 --- [Address-Book_App] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T10:22:16.233+05:30  INFO 24140 --- [Address-Book_App] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T10:22:16.239+05:30  INFO 24140 --- [Address-Book_App] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-24T10:22:16.240+05:30  INFO 24140 --- [Address-Book_App] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-05-24T10:22:16.256+05:30  INFO 24140 --- [Address-Book_App] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-05-24T10:22:16.393+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] n.s.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 21.0.6 with PID 24140 (C:\Users\surya\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\Address-Book_App\target\classes started by surya in C:\Users\surya\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\Address-Book_App)
+2025-05-24T10:22:16.394+05:30 DEBUG 24140 --- [Address-Book_App] [restartedMain] n.s.a.AddressBookAppApplication          : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-24T10:22:16.394+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] n.s.a.AddressBookAppApplication          : The following 1 profile is active: "dev"
+2025-05-24T10:22:16.632+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-24T10:22:16.650+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interface.
+2025-05-24T10:22:16.835+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-24T10:22:16.836+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-24T10:22:16.837+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-24T10:22:16.868+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-24T10:22:16.868+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 470 ms
+2025-05-24T10:22:16.941+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-24T10:22:16.949+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-24T10:22:16.976+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-24T10:22:16.978+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-05-24T10:22:17.011+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9734fb2
+2025-05-24T10:22:17.012+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-05-24T10:22:17.013+05:30  WARN 24140 --- [Address-Book_App] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-24T10:22:17.013+05:30  WARN 24140 --- [Address-Book_App] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-05-24T10:22:17.013+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-24T10:22:17.105+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-24T10:22:17.119+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-24T10:22:17.222+05:30  WARN 24140 --- [Address-Book_App] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-24T10:22:17.322+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/suryadb'
+2025-05-24T10:22:17.357+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-24T10:22:17.421+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-24T10:22:17.440+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] n.s.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.089 seconds (process running for 132.854)
+2025-05-24T10:22:17.445+05:30  INFO 24140 --- [Address-Book_App] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-05-24T10:25:34.428+05:30  INFO 24140 --- [Address-Book_App] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-24T10:25:34.430+05:30  INFO 24140 --- [Address-Book_App] [RMI TCP Connection(8)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-24T10:25:34.437+05:30  INFO 24140 --- [Address-Book_App] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-24T10:25:34.444+05:30  INFO 24140 --- [Address-Book_App] [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-24T10:25:34.446+05:30  INFO 24140 --- [Address-Book_App] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-05-24T10:25:34.457+05:30  INFO 24140 --- [Address-Book_App] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
